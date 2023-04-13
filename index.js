@@ -55,6 +55,11 @@ const questions = ([
     name: "credits",
     message: "Please provide credits for your project:",
   },
+  {
+    type: "input",
+    name: "deployed",
+    message: "Please provide a link to your deployed application:",
+  },
 ]);
 
 // TODO: Create a function to write README file

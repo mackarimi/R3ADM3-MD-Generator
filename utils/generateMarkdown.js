@@ -61,7 +61,6 @@ ${data.tests}
 ## Credits
 ${data.credits}
 
-
 ## Questions
 ✉ For any questions, please contact ${data.email}.
 💻You can also find my GitHub profile at:>[${
