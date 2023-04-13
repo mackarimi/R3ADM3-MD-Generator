@@ -5,14 +5,14 @@
 This code is for CLI program that asks the user to provide details about their project, this inlcude: Title, description, GitHub username, email address, license type, installation instructions, usage rules, and contribution guidelines. Using the input data, the tool creates a README file.
 
 ## Table of Contents
-💠-[Installation](#installation)
-💠-[Usage](#usage)
-💠-[- [License](#license)]
-💠-[Contributing](#contributing)
-💠-[Tests](#tests)
-💠-[Credits](#credits)
-💠-[Questions](#questions)
-💠-[Deployed](#deployed)
+💠- [Installation](#installation)
+💠- [Usage](#usage)
+💠- [License](#license)
+💠- [Contributing](#contributing)
+💠- [Tests](#tests)
+💠- [Credits](#credits)
+💠- [Questions](#questions)
+💠- [Deployed](#deployed)
 
 ## Installation
  Download the file from GitHub or clone the code, run npm install to install the necessary dependencies, and then run code index to launch the program. The CLI will prompt you for the necessary inputs and, after completion, a README.me file in the project directory should appear.
