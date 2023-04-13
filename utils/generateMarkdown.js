@@ -1,40 +1,48 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-const renderLicenseBadge = (license) =>
-  license !== "None" ? `![Badge](https://img.shields.io/badge/license-${license}-blue.svg)` : "";
+function renderLicenseBadge(license) {
+  if (license !== "None") {
+    return `![GitHub license](https://img.shields.io/badge/license-${license}-blue.svg)`
+  }
+  return ""
+}
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-const renderLicenseLink = (license) =>
-  license !== "None" ? `* [License](#license)` : "";
+function renderLicenseLink(license) {
+  if (license !== "None") {
+    return `- [License](#license)`
+  }
+  return ""
+}
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-const renderLicenseSection = (license) =>
-  license !== "None"
-    ? `## License
-
-This project is licensed under the ${license} license.`
-    : "";
+function renderLicenseSection(license) {
+  if (license !== "None") {
+    return `## License
+    This project is licensed under the ${license} license.`
+  }
+  return ""
+}
 
 // TODO: Create a function to generate markdown for README
-
-const generateMarkdown = (data) => `
-# ${data.title}
+const generateMarkdown = data => {
+  return `# ${data.title}
 ${renderLicenseBadge(data.license)}
 
 ## Description
 ${data.description}
 
 ## Table of Contents
-- [Installation](#installation)
-- [Usage](#usage)
-${renderLicenseLink(data.license)}
-- [Contributing](#contributing)
-- [Tests](#tests)
-- [Credits](#credits)
-- [Questions](#questions)
-- [Deployed](#deployed)
+💠[Installation](#installation)
+💠[Usage](#usage)
+💠[${renderLicenseLink(data.license)}]
+💠[Contributing](#contributing)
+💠[Tests](#tests)
+💠[Credits](#credits)
+💠[Questions](#questions)
+💠[Deployed](#deployed)
 
 ## Installation
 ${data.installation}
@@ -53,11 +61,15 @@ ${data.tests}
 ## Credits
 ${data.credits}
 
+
 ## Questions
-For any questions, please contact ${data.author} at ${data.email}.
-You can also find my GitHub profile at https://github.com/${data.githubUsername}/.
+✉ For any questions, please contact ${data.email}.
+💻You can also find my GitHub profile at:>[${
+    data.github
+  }] (https://github.com/${data.github}/).
 
 ## Deployed
-This project is deployed at ${data.deployed}.`;
+This project is deployed at [${data.deployed}].`
+}
 
-module.exports = generateMarkdown;
+module.exports = generateMarkdown
