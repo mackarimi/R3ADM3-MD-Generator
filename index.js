@@ -22,7 +22,7 @@ const questions = ([
   {
     type: "input",
     name: "description",
-    message: "Please provide a description of your project.",
+    message: "Please provide a description of your project:",
   },
   {
     type: "list",
@@ -33,22 +33,27 @@ const questions = ([
   {
     type: "input",
     name: "installation",
-    message: "Please provide installation instructions for your project.",
+    message: "Please provide installation instructions for your project:",
   },
   {
     type: "input",
     name: "usage",
-    message: "Please provide usage information for your project.",
+    message: "Please provide usage information for your project:",
   },
   {
     type: "input",
     name: "contribution",
-    message: "Please provide contribution guidelines for your project.",
+    message: "Please provide contribution guidelines for your project:",
   },
   {
     type: "input",
     name: "test",
-    message: "Please provide test instructions for your project.",
+    message: "Please provide test instructions for your project:",
+  },
+  {
+    type: "input",
+    name: "credits",
+    message: "Please provide credits for your project:",
   },
 ]);
 
