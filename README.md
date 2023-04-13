@@ -29,7 +29,6 @@ Submit a pull request for review when contributing to this code using GitFlow. A
 ## Tests
 To test the professional readme generator, you can put in a sample project and see if the generated readme file has all the necessary information, such as the project description, installation instructions, examples of how to use the project, and contribution guidelines.
 
-
 ## Credits
  Manny Jucaban (Instructor), UC Berkeley Extension Coding Bootcamp, and the open-source community for offering helpful libraries and resources.
 
