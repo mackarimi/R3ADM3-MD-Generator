@@ -39,3 +39,4 @@ To test the professional readme generator, you can put in a sample project and s
 
 ## Deployed
 This project is deployed at [https://github.com/mackarimi/R3ADM3-MD-Generator].
+Click for video: https://drive.google.com/file/d/1WZmc2-JhVz9Gnz1A92KDPn150xZt8thi/view
